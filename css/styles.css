@@ -1,0 +1,78 @@
+* {
+    user-select: none;
+}
+
+.centralize {
+    padding-top: 3.5%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit !important;
+}
+
+.nav-a:hover {
+    background-color: #28a745;
+}
+
+.nav-link.nav-a {
+    transition: color 0.3s ease, transform 0.3s ease;
+    position: relative;
+}
+
+.nav-link.nav-a:hover {
+    background-color: #28a745;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.opcao {
+    cursor: grab;
+}
+
+.opcao:active {
+    cursor: grabbing;
+}
+
+.pontuacao {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    cursor: not-allowed;
+}
+
+.btn-disabled {
+    filter: brightness(50%);
+    pointer-events: none;
+    /* Impede a interação com o botão */
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.font {
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.game-over {
+    font-family: 'Press Start 2P', cursive;
+    /* Aplica a fonte somente ao texto "Game Over" */
+    color: #00FF00;
+    /* Verde brilhante para o texto */
+    font-size: 4rem;
+    /* Tamanho menor para o texto */
+    margin-top: 20px;
+    /* Margem superior para mover o texto para cima */
+}
+
+.btn-custom {
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+}
+
+
+.btn-custom:hover {
+
+    transform: scale(1.1);
+}
